@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from functools import reduce
+
 def gcd(a,b):
     """
     Returns greatest common divisor using Euclid's Algorithm.
