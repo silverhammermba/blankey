@@ -14,5 +14,5 @@ def lcm_2(a, b):
 
 
 def lcm(*args):
-    """Returns lowest commone multipel of args."""
+    """Returns lowest commone multiple of args."""
     return reduce(lcm_2, args)
